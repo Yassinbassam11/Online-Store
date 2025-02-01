@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home_styles.css">
+</head>
+<body id="home_page_body">
+    <nav id="navigator">
+        <div id="hidden_list_div">
+            <ion-icon name="list-outline" id="list_icon"></ion-icon>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="../Contact/contact.html">Contact</a></li>
+                <li><a href="../About/about.html">About</a></li>
+                <!-- <li><a href="#services">Services</a></li> -->
+            </ul>
+        </div>
+        <h1>Online Store</h1>
+        <ul id="visable_list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="../Contact/contact.html">Contact</a></li>
+            <li><a href="../About/about.html">About</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+        </ul>
+        <div id="search_bar_div">
+            <form action="">
+                <input type="search" placeholder="Search..." id="search_bar">
+                <label for="search_bar"></label>
+                <button type="submit">
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+            </form>
+        </div>
+        <div class="cart" data-url="" onclick="go_to_page('../Cart/cart.html')">
+            <h4>Cart</h4>
+            <ion-icon name="cart" id="cart_icon"></ion-icon>
+        </div>
+    </nav>
+    <div class="grid">
+        <!-- <div class="item" id="i1">
+            <img src="../images/items-photos/1.webp" alt="">
+            <h2>Pepsi</h2>
+            <h3>15 EGP</h3>
+            <button class="add_to_cart_button" onclick="add_item_to_cart('i1')">Add to cart</button>
+        </div>
+        <div class="item" id="i2">
+            <img src="../images/items-photos/2copy.jpeg" alt="">
+            <h2>Water</h2>
+            <h3>5 EGP</h3>
+            <button class="add_to_cart_button" onclick="add_item_to_cart('i2')">Add to cart</button>
+        </div>
+        <div class="item" id="i3">
+            <img src="../images/items-photos/3.jpg" alt="">
+            <h2>Chips</h2>
+            <h3>10 EGP</h3>
+            <button class="add_to_cart_button" onclick="add_item_to_cart('i3')">Add to cart</button>
+        </div> -->
+    </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="home_app.js"></script>
+</body>
+</html>

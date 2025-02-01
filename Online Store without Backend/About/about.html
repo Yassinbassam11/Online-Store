@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    </head>
+<body>
+    <nav id="navigator">
+        <div id="hidden_list_div">
+            <ion-icon name="list-outline" id="list_icon"></ion-icon>
+            <ul>
+                <li><a href="../Home/home.html">Home</a></li>
+                <li><a href="../Contact/contact.html">Contact</a></li>
+                <li><a href="../About/about.html">About</a></li>
+            </ul>
+        </div>
+        <h1>Online Store</h1>
+        <ul id="visable_list">
+            <li><a href="../Home/home.html">Home</a></li>
+            <li><a href="../Contact/contact.html">Contact</a></li>
+            <li><a href="../About/about.html">About</a></li>
+        </ul>
+        <div id="search_bar_div">
+            <form action="">
+                <input type="search" placeholder="Search..." id="search_bar">
+                <label for="search_bar"></label>
+                <button type="submit">
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+            </form>
+        </div>
+        <div class="cart" data-url="" onclick="go_to_page('../Cart/cart.html')">
+            <h4>Cart</h4>
+            <ion-icon name="cart" id="cart_icon"></ion-icon>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+
+
+            <div class="about-section">
+
+                <h2>About Us</h2>
+                <p>At Just-SuperMarket, we are dedicated to providing our community with the highest quality products and outstanding customer service. Founded in [Year], we have been a trusted destination for fresh groceries, household essentials, and more.</p>
+
+                <h3>Our Mission</h3>
+                <p>We aim to create a shopping experience that combines convenience, affordability, and quality. Whether you're picking up your weekly groceries or exploring our specialty sections, we're here to serve you better.</p>
+
+                <h3>Why Choose Us?</h3>
+                <ul>
+                    <li>Fresh and locally sourced produce</li>
+                    <li>Wide range of international products</li>
+                    <li>Competitive prices</li>
+                    <li>Friendly and knowledgeable staff</li>
+                    <li>Convenient locations and hours</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Supermarket Name]. All rights reserved.</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="about_app.js"></script>
+</body>
+</html>

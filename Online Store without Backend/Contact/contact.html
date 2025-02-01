@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Supermarket</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <!-- <h1>Just-SuperMarket</h1> -->
+        <nav id="navigator">
+            <div id="hidden_list_div">
+                <ion-icon name="list-outline" id="list_icon"></ion-icon>
+                <ul>
+                    <li><a href="../Home/home.html">Home</a></li>
+                    <li><a href="../Contact/contact.html">Contact</a></li>
+                    <li><a href="../About/about.html">About</a></li>
+                </ul>
+            </div>
+            <h1>Online Store</h1>
+            <ul id="visable_list">
+                <li><a href="../Home/home.html">Home</a></li>
+                <li><a href="../Contact/contact.html">Contact</a></li>
+                <li><a href="../About/about.html">About</a></li>
+            </ul>
+            <div id="search_bar_div">
+                <form action="">
+                    <input type="search" placeholder="Search..." id="search_bar">
+                    <label for="search_bar"></label>
+                    <button type="submit">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </form>
+            </div>
+            <div class="cart_in_nav" data-url="" onclick="go_to_page('../Cart/cart.html')">
+                <h4>Cart</h4>
+                <ion-icon name="cart" id="cart_icon"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h3>Ways to Contact Us:</h3>
+            <div class="container">
+                <div class="list"> 
+                    <ul>
+                        <li><strong>Phone:</strong> +1-800-555-1234</li>
+                        <li><strong>Email:</strong> support@supermarket.com</li>
+                        <li><strong>Address:</strong> 123 Market Street, Foodville, USA</li>
+                    </ul>
+                </div>
+                <img src="../images/just_market.webp" alt="logo" class="logo">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Supermarket. All rights reserved.</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
